@@ -1,0 +1,36 @@
+.card {
+  cursor: default !important;
+  boxShadow: '0px 10px 14px rgba(0, 0, 0, 0.2)';
+}
+
+.view-grades,
+.edit-info,
+.apply-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.view-grades,
+.edit-info,
+.apply-button {
+  background-color: slateblue;
+  color: white;
+}
+
+.view-grades:hover,
+.edit-info:hover,
+.apply-button:hover {
+  background-color: darkslateblue;
+}
+
+.submit-classes {
+  backgroundColor: forestgreen;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

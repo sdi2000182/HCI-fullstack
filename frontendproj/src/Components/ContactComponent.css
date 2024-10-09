@@ -1,0 +1,38 @@
+.email-address {
+    cursor: pointer;
+  }
+  
+  .contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+  }
+  
+  .contact-content-left {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .contact-content-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1;
+    text-align: right;
+  }
+  
+  .contact-title {
+    color: slateblue;
+  }
+  
+  .contact-text {
+    font-size: 1.2rem;
+    margin-top: 100px;
+  }
+  
+  .form-title {
+    color: slateblue;
+  }
+  
